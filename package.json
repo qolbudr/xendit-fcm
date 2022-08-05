@@ -4,7 +4,7 @@
   "description": "An webhook to send xendit payment notification",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "fcm"
@@ -12,6 +12,7 @@
   "author": "qolbudr",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
   }
 }
